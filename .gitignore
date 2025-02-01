@@ -1,5 +1,12 @@
 
+# Arquivos do Terraform que não devem ser versionados
 terraform.tfstate
+terraform.tfstate.*
 .terraform.lock.hcl
-terraform-chave.pem
 /.terraform/
+
+
+/env/dev/iac-dev
+/env/dev/iac-dev.pub
+/env/prod/iac-prod
+/env/prod/iac-prod.pub
