@@ -7,3 +7,9 @@
       - virtualenv
       update_cache: yes
     become: yes
+  - name: instalando django
+    pip: 
+      virtualenv: /home/ubuntu/venv
+      name:
+        - django
+        - djangorestframework
