@@ -1,5 +1,5 @@
 module "env-dev" {
-  source   = "../../../infra"
+  source   = "/home/tiago/terraform/terraform-curso/infra"
   instance = "t2.micro"
   region   = "us-west-2"
   key      = "iac-dev"
