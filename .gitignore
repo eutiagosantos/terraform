@@ -3,11 +3,11 @@
 terraform.tfstate
 terraform.tfstate.*
 .terraform.lock.hcl
-/.terraform/
-./.terraform
+
 
 /env/dev/iac-dev
 /env/dev/iac-dev.pub
 /env/prod/iac-prod
 /env/prod/iac-prod.pub
 .terraform/
+/prod/.terraform/
