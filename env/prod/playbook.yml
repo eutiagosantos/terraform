@@ -12,12 +12,15 @@
         repo: https://github.com/guilhermeonrails/clientes-leo-api.git
         dest: /home/ubuntu/tcc
         version: master
+        force: yes
     - name: instalando-dependencia-com-pip-django-django-rest
       pip:
         virtualenv: /home/ubuntu/tcc/venv
+        requirements: /home/ubuntu/tcc/requirements.txt
         name:
           - django
           - djangorestframework
+        
     - name: verifica-se-projeto-existe
       stat:
         path: /home/ubuntu/tcc/setup/settings.py
